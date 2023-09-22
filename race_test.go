@@ -6,7 +6,7 @@ import (
 	"testing"
 )
 
-// what is race conditions ? access (Read OR Write) with several go routin with same variable
+// what is race conditions ? access (Read OR Write) with several go routine with same variable
 func TestDataRaceConditions(t *testing.T) {
 	var state int32
 
